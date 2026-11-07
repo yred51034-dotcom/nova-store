@@ -1,0 +1,16 @@
+{
+  "appId": "com.novastore.app",
+  "appName": "Nova Store",
+  "webDir": "www",
+  "backgroundColor": "#0e1113",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true }
+  }
+}
